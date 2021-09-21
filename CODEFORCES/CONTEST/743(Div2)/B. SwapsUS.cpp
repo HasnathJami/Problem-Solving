@@ -71,12 +71,7 @@ int main ()
 
         cout<<mini<<endl;
 
-        for(int i=0;i<n;i++)
-        {
-            cout<<c[i]<<" ";
-        }
-
-
+ 
 
 
 
