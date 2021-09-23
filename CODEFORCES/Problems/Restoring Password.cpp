@@ -80,7 +80,6 @@ int main ()
         if(ch1[i].first==s1)
         {
             cout<<ch1[i].second;
-            continue;
         }
 
     }
