@@ -1,0 +1,49 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+
+#define endl  "\n"
+#define nline cout<<"\n"
+#define FASTER  ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
+#define PI        acos(-1.0)
+#define pb push_back
+#define lb lower_bound
+#define imax INT_MAX
+#define imin INT_MIN
+#define llmax LLONG_MAX
+#define llmin LLONG_MIN
+
+int mod=1e9+7;
+
+
+int main ()
+{
+    FASTER
+
+    int n,m,c=0;
+    cin>>n>>m;
+
+    for(int a=0;a<=1000;a++)
+    {
+
+        for(int b=0;b<=1000;b++)
+        {
+            if((a*a + b )==n && (a + b*b)==m)
+                c++;
+        }
+    }
+
+    cout<<c<<endl;
+
+
+
+    return 0;
+
+}
+
+
+
+
+
+
+
